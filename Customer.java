@@ -18,13 +18,13 @@ public class Customer {
         this.address=address;
 	}
 	public void input(){
-		System.out.print("Nhap ma so KH: ");
+		System.out.print("input id of custom: ");
         id = sc.nextLine();
-		System.out.print("Nhap ten KH: ");
+		System.out.print("input name of custom: ");
         name = sc.nextLine();
-		System.out.print("Nhap sdt KH: ");
+		System.out.print("Input phone number of custom: ");
         pnb = sc.nextLine();
-		System.out.print("Nhap dia chi KH: ");
+		System.out.print("Input custom's address: ");
         address = sc.nextLine();
 	}
        

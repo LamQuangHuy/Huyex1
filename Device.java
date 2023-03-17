@@ -14,13 +14,13 @@ public class Device {
         this.price = price;
     }
     public void input(){
-		System.out.print("Nhap ma so DT: ");
+		System.out.print("Input ID of phone: ");
         this.Did = sc.nextLine();
-		System.out.print("Nhap mau cua DT: ");
+		System.out.print("Input color of phone: ");
         this.color = sc.nextLine();
-		System.out.print("Nhap HDH cua DT: ");
+		System.out.print("Input the opera system name: ");
          this.opera = sc.nextLine();
-		System.out.print("Nhap gia DT: ");
+		System.out.print("Input the price of phone: ");
         this.price = sc.nextInt();
 	}
     public String getDid() {
@@ -49,7 +49,7 @@ public class Device {
     }   
     @Override
     public String toString(){
-        return "Did: "+Did+" color: "+color+" opera: "+opera+" price: "+price;
+        return "-    "+"PhoneID: "+Did+" color: "+color+" opera: "+opera+" price: "+price;
     }
 
 }

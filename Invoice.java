@@ -70,7 +70,7 @@ public class Invoice {
         for (Device d : device) {
             dv+=d.toString()+"\n";
         }
-        return "Invoice of " + cus.toString()+ " has bought: " +"\n"+dv+"And the total cost:"+totalCost();
+        return "Invoice of " + cus.toString()+ " has bought "+ device.size()+" device:" +"\n"+dv+"And the total cost:"+totalCost();
 
     }
 
